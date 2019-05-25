@@ -122,7 +122,7 @@ class _ProfileState extends State<ProfileScreen>{
                     validator: (value) {
                       if (value.isEmpty) {
                         return "กรุณาระบุ password";
-                      }else if(value.length<6){
+                      }else if(value.length<=6){
                         return "ความยาว password ไม่เพียงพอ";
                       }
                     },

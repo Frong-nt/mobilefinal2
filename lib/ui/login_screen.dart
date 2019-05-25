@@ -86,14 +86,14 @@ class Myform extends State<LoginScreen> {
                         List<User> users = await DBProvider.db.getAllUser();
                         bool check = false;
                         for (int i = 0; i < users.length; i++) {
-                          print("userid " +
-                              users[i].userid +
-                              " == " +
-                              textControl[0].text);
-                          print("pass " +
-                              users[i].password +
-                              " == " +
-                              textControl[1].text);
+                          // print("userid " +
+                          //     users[i].userid +
+                          //     " == " +
+                          //     textControl[0].text);
+                          // print("pass " +
+                          //     users[i].password +
+                          //     " == " +
+                          //     textControl[1].text);
 
                           if (users[i].userid == textControl[0].text &&
                               users[i].password == textControl[1].text) {

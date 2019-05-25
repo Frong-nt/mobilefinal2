@@ -26,7 +26,7 @@ class _Home extends State<HomeScreen> {
     prefname.then((value) {
       setState(() {
         if (value != null) name = value;
-        print(name);
+        // print(name);
       });
     });
     // read file
